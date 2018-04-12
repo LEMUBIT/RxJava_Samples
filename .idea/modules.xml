@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lemuel.com.iml" filepath="$PROJECT_DIR$/.idea/modules/lemuel.com.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lemuel.com_main.iml" filepath="$PROJECT_DIR$/.idea/modules/lemuel.com_main.iml" group="lemuel.com" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lemuel.com_test.iml" filepath="$PROJECT_DIR$/.idea/modules/lemuel.com_test.iml" group="lemuel.com" />
+    </modules>
+  </component>
+</project>
