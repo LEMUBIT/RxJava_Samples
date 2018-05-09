@@ -19,7 +19,7 @@ groupBy will create and emit a new GroupedObservable to match the key.
 
 package TransformingObservables;
 
-//Todo add example
+//TODO: Implement Example
 public class GroupBy {
     public static void main(String[] args) {
 
