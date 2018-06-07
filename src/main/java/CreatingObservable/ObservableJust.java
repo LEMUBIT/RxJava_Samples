@@ -10,13 +10,40 @@ For that, you will need the Empty operator.*/
 
 package CreatingObservable;
 
+import rx.Observable;
+import rx.Observer;
+
 public class ObservableJust {
     public static void main(String[] args) {
-        rx.Observable.just(2,4,8).subscribe(
-                s->System.out.println("No:"+s),
+        rx.Observable.just(2, 4, 8).subscribe(
+                s -> System.out.println("No:" + s),
                 throwable -> System.out.println("Error"),
-                ()->System.out.println("Completed")
+                () -> System.out.println("Completed")
 
         );
+
+
+
+
+        Observable observable = Observable.just(1, 2, 3);
+
+        Observer observer = new Observer() {
+            @Override
+            public void onCompleted() {
+                System.out.println("Completed");
+            }
+
+            @Override
+            public void onError(Throwable e) {
+                System.out.println("Error");
+            }
+
+            @Override
+            public void onNext(Object o) {
+                System.out.println(o);
+            }
+        };
+
+        observable.subscribe(observer);
     }
 }

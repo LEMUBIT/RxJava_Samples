@@ -3,6 +3,8 @@ package CreatingObservable;
 import rx.Observable;
 import rx.Scheduler;
 import rx.Subscriber;
+import rx.Subscription;
+import rx.observers.Subscribers;
 import rx.schedulers.Schedulers;
 
 import java.awt.*;
@@ -38,10 +40,43 @@ public class ObservableCreate2 {
         so you can chain observeOn() onto the Observable that is returned
         by the call to subscribeOn():*/
 
-        observable.subscribe(
+       Subscription subscription = observable.subscribe(
                 o -> System.out.println(o),
                 throwable -> System.out.println("Error"),
                 () -> System.out.println("Completed")
         );
+
+       /*In cases where an Observable may live longer than its Observer
+        because it is emitting items on a separate thread calling
+        Subscription.unsubscribe() clears the Observable’s reference to
+        the Observer whose connection is represented by the Subscription
+        object.*/
+
+       /*
+        *
+        *   Any call to Observable.subscribe() returns a Subscription. Subscriptions represent
+        *   a connection between an Observable that’s
+        *   emitting data and an Observer that’s consuming that data. More
+        *   specifically, the Subscription returned by Observable.subscribe()
+        *   represents the connection between the Observable receiving
+        *   the subscribe() message and the Observer that is passed in as a
+        *   parameter to the subscribe() method. Subscriptions give us the
+        *   ability to sever that connection by calling Subscription.unsubscribe().
+        * */
+
+       subscription.unsubscribe();
+
+       /*If an Activity utilizes multiple Observables, then the Subscriptions
+       returned from each call to Observable.subscribe() can all
+       be added to a CompositeSubscription, a Subscription whose
+       unsubscribe() method will unsubscribe all Subscriptions that
+       were previously added to it and that may be added to it in the future.*/
+
+
+       /*Android: As long as an Observable survives an Activity’s configuration
+        change, RxJava provides several operators that save us from having
+        to re-query a data source after a configuration change: the cache and replay operators.
+        These operators both ensure that Observers who subscribe to an Observable after that Observable has emitted
+        its items will still see that same sequence of items.*/
     }
 }
