@@ -12,6 +12,7 @@
 * */
 package TransformingObservables;
 
+import io.reactivex.Flowable;
 import rx.Observable;
 import rx.Scheduler;
 
@@ -23,5 +24,6 @@ public class Buffer {
                 ()->System.out.println("Completed")
 
         );
+
     }
 }

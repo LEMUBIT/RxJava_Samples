@@ -1,3 +1,5 @@
+package KotlinExamples
+
 import io.reactivex.Observable
 import io.reactivex.rxkotlin.*
 

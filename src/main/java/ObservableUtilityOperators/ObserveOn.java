@@ -15,11 +15,34 @@ no matter at what point in the chain of operators that operator is called. Obser
 on the other hand, affects the thread that the Observable will use below where that operator appears.
 For this reason, you may call ObserveOn multiple times at various points during the chain of Observable
 operators in order to change on which threads certain of those operators operate*/
+
+/*Unlike subscribeOn(), where you place observeOn() in your chain does matter,
+as this operator only changes the thread that’s used by the observables that appear downstream. */
+
+/*The RxAndroid library includes Android-specific bindings for RxJava 2, making it a valuable additional
+resource for Android developers (and something we’ll be looking at in much more detail in the next post of this series).*/
+
 package ObservableUtilityOperators;
 
-//TODO: Implement Example
+import rx.Observable;
+import rx.schedulers.Schedulers;
+
+import java.util.concurrent.TimeUnit;
+
 public class ObserveOn {
     public static void main(String[] args) {
+        Observable.just(1, 2, 3, 4, 5)
+                .subscribeOn(Schedulers.computation())
+                .observeOn(Schedulers.newThread())
+                .subscribe(integer -> System.out.println(integer + " --" + Thread.currentThread().getName()));
 
+
+        //The reason I wrote the below code was to prevent program from closing too early for
+        //the code above to execute
+        Observable.interval(1, TimeUnit.SECONDS)
+                .take(3)
+                .toBlocking()
+                .subscribe(aLong -> System.out.println(aLong + " --" + Thread.currentThread().getName())
+                );
     }
 }

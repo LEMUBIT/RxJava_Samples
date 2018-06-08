@@ -2,22 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa3ae054-36bb-4956-ab44-01a2b732de0a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_reactivex_rxjava2_rxkotlin_2_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_annotations_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_2_41.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_2_41.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_2_41.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/RxExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/RxKotlin.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/lemuel.com_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/lemuel.com_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/lemuel.com_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/lemuel.com_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CreatingObservable/Flowable_Rx2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CreatingObservable/Singles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/KotlinExamples/RxKotlin2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/KotlinExamples/RxKotlin3.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/CreatingObservable/ObservableJust.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/CreatingObservable/ObservableJust.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CreatingObservable/ObservableCreate2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CreatingObservable/ObservableCreate2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CreatingObservable/ObservableJust.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CreatingObservable/ObservableJust.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/CreatingObservable/ObservableInterval.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/CreatingObservable/ObservableInterval.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/FilteringObservables/Sample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/FilteringObservables/Sample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/META-INF/lemuel.com_main.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/META-INF/lemuel.com_main.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ObservableUtilityOperators/ObserveOn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/ObservableUtilityOperators/ObserveOn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ObservableUtilityOperators/SubscribeOn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/ObservableUtilityOperators/SubscribeOn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/RxKotlinKt$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/RxKotlinKt$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/RxKotlinKt$main$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/RxKotlinKt$main$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/RxKotlinKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/TransformingObservables/Buffer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/TransformingObservables/Buffer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CreatingObservable/ObservableInterval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CreatingObservable/ObservableInterval.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FilteringObservables/Sample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FilteringObservables/Sample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ObservableUtilityOperators/ObserveOn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ObservableUtilityOperators/ObserveOn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ObservableUtilityOperators/SubscribeOn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ObservableUtilityOperators/SubscribeOn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RxKotlin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/KotlinExamples/RxKotlin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TransformingObservables/Buffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TransformingObservables/Buffer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -53,92 +59,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Delay.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ObservableUtilityOperators/Delay.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
-              <folding>
-                <element signature="e#0#1040#0" expanded="true" />
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ObservableCreate2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/CreatingObservable/ObservableCreate2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ObservableJust.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/CreatingObservable/ObservableJust.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1114#1115#0" expanded="true" />
-                <element signature="e#1177#1178#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Split.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Split.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RxExample.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/RxExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TakeUntil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ConditionalAndBooleanOperators/TakeUntil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="18" column="107" lean-forward="true" selection-start-line="18" selection-start-column="107" selection-end-line="18" selection-end-column="107" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RxKotlin.kt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/RxKotlin.kt">
+      <file leaf-file-name="RxKotlin.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/KotlinExamples/RxKotlin.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+              <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
               <folding>
                 <element signature="e#0#61#0" expanded="true" />
               </folding>
@@ -146,11 +71,99 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ObservableRepeat.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/CreatingObservable/ObservableRepeat.java">
+      <file leaf-file-name="RxKotlin2.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/KotlinExamples/RxKotlin2.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+              <caret line="9" column="66" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RxKotlin3.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/KotlinExamples/RxKotlin3.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+              <folding>
+                <element signature="e#24#81#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SubscribeOn.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ObservableUtilityOperators/SubscribeOn.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ObserveOn.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ObservableUtilityOperators/ObserveOn.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="e#0#2263#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Sample.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/FilteringObservables/Sample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Buffer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/TransformingObservables/Buffer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Flowable_Rx2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/CreatingObservable/Flowable_Rx2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="e#0#698#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Singles.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/CreatingObservable/Singles.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#129#130#0" expanded="true" />
+                <element signature="e#213#214#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ObservableInterval.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/CreatingObservable/ObservableInterval.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -161,8 +174,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit4 Test Class" />
-        <option value="Class" />
         <option value="Kotlin File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -566,15 +579,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/FilteringObservables/Debounce.java" />
-        <option value="$PROJECT_DIR$/src/main/java/FilteringObservables/ElementAt.java" />
-        <option value="$PROJECT_DIR$/src/main/java/FilteringObservables/Filter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/FilteringObservables/First.java" />
-        <option value="$PROJECT_DIR$/src/main/java/FilteringObservables/IgnoreElements.java" />
-        <option value="$PROJECT_DIR$/src/main/java/FilteringObservables/Last.java" />
-        <option value="$PROJECT_DIR$/src/main/java/FilteringObservables/Sample.java" />
-        <option value="$PROJECT_DIR$/src/main/java/FilteringObservables/Skip.java" />
-        <option value="$PROJECT_DIR$/src/main/java/FilteringObservables/SkipLast.java" />
         <option value="$PROJECT_DIR$/src/main/java/FilteringObservables/Take.java" />
         <option value="$PROJECT_DIR$/src/main/java/FilteringObservables/TakeLast.java" />
         <option value="$PROJECT_DIR$/src/main/java/FilteringObservables/Distinct.java" />
@@ -593,11 +597,9 @@
         <option value="$PROJECT_DIR$/src/main/java/ObservableUtilityOperators/Delay.java" />
         <option value="$PROJECT_DIR$/src/main/java/ObservableUtilityOperators/Do.java" />
         <option value="$PROJECT_DIR$/src/main/java/Split.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ObservableUtilityOperators/ObserveOn.java" />
         <option value="$PROJECT_DIR$/src/main/java/ObservableUtilityOperators/Materialize.java" />
         <option value="$PROJECT_DIR$/src/main/java/ObservableUtilityOperators/Subscribe.java" />
         <option value="$PROJECT_DIR$/src/main/java/ObservableUtilityOperators/Serialize.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ObservableUtilityOperators/SubscribeOn.java" />
         <option value="$PROJECT_DIR$/src/main/java/ObservableUtilityOperators/TImeInterval.java" />
         <option value="$PROJECT_DIR$/src/main/java/ObservableUtilityOperators/TimeOut.java" />
         <option value="$PROJECT_DIR$/src/main/java/ObservableUtilityOperators/TimeStamp.java" />
@@ -617,6 +619,17 @@
         <option value="$PROJECT_DIR$/src/main/java/RxExample.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/RxKotlin.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/KotlinExamples/RxKotlin.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/CreatingObservable/ObservableInterval.java" />
+        <option value="$PROJECT_DIR$/src/main/java/KotlinExamples/RxKotlin2.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/KotlinExamples/RxKotlin3.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/ObservableUtilityOperators/SubscribeOn.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ObservableUtilityOperators/ObserveOn.java" />
+        <option value="$PROJECT_DIR$/src/main/java/FilteringObservables/Sample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TransformingObservables/Buffer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CreatingObservable/Flowable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CreatingObservable/Flowable_Rx2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CreatingObservable/Singles.java" />
       </list>
     </option>
   </component>
@@ -665,6 +678,14 @@
             </path>
             <path>
               <item name="lemuel.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rxJavaPractice" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="CreatingObservable" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lemuel.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -693,6 +714,9 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\charl\IdeaProjects\rxJavaPractice\src\main\java\KotlinExamples" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -706,12 +730,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.RxKotlinKt">
+  <component name="RunManager" selected="Application.Singles">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
-    <configuration name="ObservableCreate2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CreatingObservable.ObservableCreate2" />
+    <configuration name="Buffer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TransformingObservables.Buffer" />
+      <module name="lemuel.com_main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TransformingObservables.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Flowable_Rx2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CreatingObservable.Flowable_Rx2" />
       <module name="lemuel.com_main" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -721,29 +756,35 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="ObservableJust" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CreatingObservable.ObservableJust" />
+    <configuration name="ObserveOn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ObservableUtilityOperators.ObserveOn" />
+      <module name="lemuel.com_main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ObservableUtilityOperators.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Sample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FilteringObservables.Sample" />
+      <module name="lemuel.com_main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FilteringObservables.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Singles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CreatingObservable.Singles" />
       <module name="lemuel.com_main" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="CreatingObservable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="RxExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RxExample" />
-      <module name="lemuel.com_main" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="TakeWhile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ConditionalAndBooleanOperators.TakeWhile" />
-      <module name="lemuel.com_main" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ConditionalAndBooleanOperators.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -766,16 +807,6 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
-    </configuration>
-    <configuration name="RxKotlinKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="lemuel.com_main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="RxKotlinKt" />
-      <option name="WORKING_DIRECTORY" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -800,19 +831,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.TakeWhile" />
-      <item itemvalue="Application.ObservableCreate2" />
-      <item itemvalue="Application.ObservableJust" />
-      <item itemvalue="Application.RxExample" />
-      <item itemvalue="Kotlin.RxKotlinKt" />
+      <item itemvalue="Application.ObserveOn" />
+      <item itemvalue="Application.Sample" />
+      <item itemvalue="Application.Buffer" />
+      <item itemvalue="Application.Flowable_Rx2" />
+      <item itemvalue="Application.Singles" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.RxKotlinKt" />
-        <item itemvalue="Application.ObservableCreate2" />
-        <item itemvalue="Application.RxExample" />
-        <item itemvalue="Application.ObservableJust" />
-        <item itemvalue="Application.TakeWhile" />
+        <item itemvalue="Application.Singles" />
+        <item itemvalue="Application.Flowable_Rx2" />
+        <item itemvalue="Application.Buffer" />
+        <item itemvalue="Application.Sample" />
+        <item itemvalue="Application.ObserveOn" />
       </list>
     </recent_temporary>
   </component>
@@ -1029,48 +1060,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/CombiningObservables/StartWith.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CombiningObservables/Join.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CombiningObservables/CombineLatest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CombiningObservables/Zip.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CombiningObservables/Switch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CombiningObservables/And_Then_When.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/CreatingObservable/ObservableStart.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1134,24 +1123,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ObservableUtilityOperators/SubscribeOn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ObservableUtilityOperators/TimeOut.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="20" column="78" selection-start-line="20" selection-start-column="78" selection-end-line="20" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ObservableUtilityOperators/ObserveOn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="19" selection-start-line="19" selection-end-line="19" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -1229,13 +1204,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CreatingObservable/ObservableInterval.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="15" column="56" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -1347,13 +1315,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.3.4/828fc0f02c40121bc33aa834e768ab3b16e5ea42/rxjava-1.3.4-sources.jar!/rx/Observable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-91404">
-          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/RxKotlin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1397,12 +1358,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/RxKotlin.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/KotlinExamples/RxKotlin.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
           <folding>
             <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.3.4/828fc0f02c40121bc33aa834e768ab3b16e5ea42/rxjava-1.3.4-sources.jar!/rx/Observable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="6540" column="31" selection-start-line="6540" selection-start-column="31" selection-end-line="6540" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CreatingObservable/ObservableInterval.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/KotlinExamples/RxKotlin2.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="66" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/KotlinExamples/RxKotlin3.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding>
+            <element signature="e#24#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ObservableUtilityOperators/SubscribeOn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ObservableUtilityOperators/ObserveOn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#0#2263#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FilteringObservables/Sample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TransformingObservables/Buffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CreatingObservable/Flowable_Rx2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#698#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CreatingObservable/Singles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#129#130#0" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
           </folding>
         </state>
       </provider>

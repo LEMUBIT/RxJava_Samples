@@ -11,21 +11,13 @@ import java.util.concurrent.TimeUnit;
 
 public class ObservableInterval {
     public static void main(String[] args) {
-        //used to block until the observable is consumed:
-        CountDownLatch latch = new CountDownLatch(1);
-        Observable.interval(1, TimeUnit.SECONDS).take(5).subscribe(
+
+        //toBlocking() can be used in place of countdown latch
+        Observable.interval(1, TimeUnit.SECONDS).take(5).toBlocking().subscribe(
                 integer -> System.out.println(integer),
                 throwable -> System.out.println("Error!"),
-                () -> {
-                    latch.countDown();
-                    System.out.println("Completed");
-                }
+                () -> System.out.println("Completed")
         );
 
-        try {
-            latch.await();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
     }
 }

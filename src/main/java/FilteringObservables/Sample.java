@@ -12,21 +12,12 @@ import java.util.concurrent.TimeUnit;
 
 public class Sample {
     public static void main(String[] args) {
-        CountDownLatch latch = new CountDownLatch(1);
-        Observable.interval(1, TimeUnit.MILLISECONDS).sample(2,TimeUnit.SECONDS).subscribe(
+
+        Observable.interval(1, TimeUnit.MILLISECONDS).sample(2,TimeUnit.SECONDS).toBlocking().subscribe(
                 integer -> System.out.println(integer),
                 throwable -> System.out.println("Error!"),
-                () -> {
-                    latch.countDown();
-                    System.out.println("Completed");
-                }
+                () -> System.out.println("Completed")
         );
-
-        try {
-            latch.await();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
     }
 
 }
